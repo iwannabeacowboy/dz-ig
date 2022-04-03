@@ -12,6 +12,7 @@ function Message({avatar, message, time, name}: MessagePropsType) {
     return (
         <div className={s.messageContainer}>
             <img src={avatar} alt='avatar'/>
+
             <div className={s.message}>
                 <div className={s.name}>
                     {name}
