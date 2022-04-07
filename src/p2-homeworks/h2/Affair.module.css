@@ -1,0 +1,28 @@
+.affairRow {
+    margin: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 31%;
+}
+
+.affairName {
+    font-weight: bold;
+    width: 280px;
+    color: white;
+}
+
+.affairPriority {
+    width: 80px;
+}
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: yellow;
+}
+
+.low {
+    color: green;
+}
