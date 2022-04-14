@@ -20,13 +20,8 @@ function Affair(props: AffairPropsType) {
                 {props.affair.name}
             </div>
 
-            <div className={[s.affairPriority,
-                props.affair.priority === 'high' ? s.high :
-                    props.affair.priority === 'middle' ? s.middle :
-                        s.low].join(' ')}>
-
+            <div className={s.affairPriority + ' ' + s[props.affair.priority]}>
                 [{props.affair.priority}]
-
             </div>
 
             <button onClick={deleteCallback}>X</button>
