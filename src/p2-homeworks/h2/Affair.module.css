@@ -2,7 +2,7 @@
     margin: 10px 5px;
     display: flex;
     justify-content: space-between;
-    width: 31%;
+    max-width: 420px;
 }
 
 .affairName {
