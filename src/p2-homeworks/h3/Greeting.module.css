@@ -13,10 +13,8 @@
 
 .container input {
     border: 1px solid #999;
-    /*float: left;*/
     font-size: 15px;
     height: 25px;
-    /*margin: 0;*/
     padding-left: 15px;
     width: 100px;
 }
