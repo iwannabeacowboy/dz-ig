@@ -1,7 +1,42 @@
-.checkbox {
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+}
 
+.checkbox {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    appearance: none;
+    cursor: pointer;
+    transition: background 175ms cubic-bezier(0.1, 0.1, 0.25, 1);
+}
+
+.checkbox::before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    left: 5px;
+    width: 6px;
+    height: 12px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.checkbox:checked {
+    color: white;
+    border-color: green;
+    background: green;
 }
 
 .spanClassName {
-
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 5px;
+    user-select: none;
 }

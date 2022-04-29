@@ -1,7 +1,33 @@
 .default {
+    border: none;
+    display: inline-block;
+    padding: 5px 15px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #4272d7;
+}
 
+.default:hover {
+    background: #3868cd;
 }
 
 .red {
-    background: red;
+    background: #e64747;
+}
+
+.red:hover {
+    background: #cc3f3f;
+}
+
+.default:disabled {
+    opacity: 30%;
+    cursor: not-allowed;
 }
