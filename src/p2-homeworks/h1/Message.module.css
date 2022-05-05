@@ -1,8 +1,8 @@
 .messageContainer {
-    margin: 1em;
-    width: 70vw;
+    padding: 1em;
     display: flex;
     align-items: flex-end;
+    background-color: #A7E700
 }
 
 .messageContainer img {
@@ -18,8 +18,9 @@
     border-radius: .5em .5em .5em 0;
     background: #0e3819;
     padding: .5em 3.25em .75em .75em;
-    margin-left: 0.5em;
+    margin-left: .5em;
     color: #ffffff;
+    max-width: 70vw;
 }
 
 .message::after {
