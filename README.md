@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React Homework
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+See production: [https://iwannabeacowboy.github.io/dz-ig](https://iwannabeacowboy.github.io/dz-ig)
 
 ## Available Scripts
 
