@@ -1,0 +1,13 @@
+.line {
+    margin:  15px 20px;
+    max-width: 290px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.buttonsBlock {
+    display: flex;
+    gap: 10px;
+    margin:  10px 20px;
+}
