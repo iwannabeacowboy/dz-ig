@@ -1,0 +1,17 @@
+.radio {
+    appearance: none;
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #999;
+}
+
+.radio:checked {
+    background: green;
+    border-color: black;
+}
+
+.label {
+    cursor: pointer;
+}
